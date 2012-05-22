@@ -1,0 +1,10 @@
+"Regex","Target","Taxon","Shipping (empty for default)","Notes"
+"Salt","product.sku","Water Softeners","Collection Only", "Regex is a regular expression to match a product in some way"
+"franke","product.name","franke",,"The notes field is optional - just leave the last comma. Only here so I can remember things like why I'm matching something"
+"bette","product.name","bette","Local Delivery Only",
+"^NEFF ","product.sku","neff","Local Delivery Only", "The Shipping name matches my shipping categories"
+"^Mie","product.sku","miele","Local Delivery Only", "The Target says which field I'm trying to match"
+"^BL","product.sku","blanco","Local Delivery Only", "I can match the product sku or the product name"
+"^HG ","product.sku","hansgrohe",,"If you add code, you can probably match descriptions and things too"
+"^WL PP[0-9]","product.sku","Axiom laminate worktops",,"This is a more complicated regex"
+"^WL PP[0-9]","product.sku","Beta laminate worktops",,"A product can be pushed into more than one Taxon"
